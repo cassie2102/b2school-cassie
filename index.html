@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I LOVE COFFEE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.9.1.min.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1>MY EMBEDDED DASHBOARD</h1>
+    <div>This is my first client embedding</div>
+    <hr/>
+
+    <div><div class="buttons">
+        <button id= "exportPdf"> Export to exportPdf</button>
+        <button  id= "ExportPPT">Export to Powerpoint</button>
+
+    </div>
+<div id="numberFilters"> 
+    <input type="number" placeholder="Min Value" 
+    id="Min Value">
+    <input type="number" placeholder="Max Value" 
+    id="Max Value"></div>
+    <button id="FilterButton">Filter</button>
+</div>
+    <div id="tableauViz">
+    </div></div>
+  </body>
+</html>
